@@ -1,0 +1,17 @@
+[package]
+name = "a2pcej"
+version = "0.1.0"
+edition = "2024"
+description = "Convert ASCII alphabet letters to English phonetic code or Japanese katakana"
+license = "MIT"
+repository = "https://github.com/kacchan822/a2pcej-rust"
+keywords = ["alphabet", "katakana", "phonetic"]
+categories = ["command-line-utilities", "text-processing"]
+
+[lib]
+name = "a2pcej"
+path = "src/lib.rs"
+
+[[bin]]
+name = "a2pcej"
+path = "src/main.rs"
